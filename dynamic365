@@ -1,1 +1,88 @@
-fgb
+1Q-what is Microsoft Dynamics 365?
+Ans: 1. Microsoft Dynamics 365 is a cloud-based business application.
+It's a collection of applications called Microsoft Dynamics 365. It means you don't have to install anything on your servers, or your premises and you don't have to invest in costly infrastructure.
+All you need is an internet connection and a browser to access the application and start managing your business. So it's a complete entire cloud-based business publication.
+
+2. It is built by Microsoft for flexibility, extensibility, and mobility.
+ flexibility: means you don't have to take the entire suite of Dynamics 365 to run your business. In case, you need to start with just one business function, then you can take that business function
+              in Dynamics 365 and start using it. As and when needed, you can add new business functions or functionalities to your Dynamics365 deployment. So it is very flexible for you to adopt for your organization.
+
+extensibility: It means Microsoft Dynamics 365 comes with a lot of out-of-the-box functionality that you can use instantly for your business. But in case, if you have any specific requirements that are not available in Dynamics 365 then the system
+             is capable of extending its functionalities. It means you can build those functionalities in the system. You can integrate Dynamics 365 with different applications to make sure that you have an entire solution.
+
+ mobility: it means you don't have to be dependent on your laptop, computer, or PC. All you can do is, you can access it through your tablet as well as through your smartphone.
+           So you can access Dynamics 365 and manage your business as and when required. Microsoft Dynamics 365
+
+ 3. Combination of enterprise resource planning and customer relationship management functionalities.
+       It means everything you need to manage your enterprise resources, it is available in Dynamics 365. And anything that is required to manage your customers, is available in Dynamics 365.
+       It is a combination of enterprise resource planning as well as customer relationship management.
+
+ ERP(enterprise resource planning): Have financials and operations. So financials are used basically for small and medium-sized companies where they need a quick solution to get started and manage the entire business and cloud. So
+      they can use financials. In case if your company is a big or large organization then you need operations that provide an entire solution for your business.
+ CRM(Customer relationship management ) provides sales, marketing, service, field service, and project service automation.
+
+4. Works best with analytics tools like PowerBI and Cortana for intelligent analysis.
+
+1 Sale in Dynamic 365
+ Account: An account is an organization. this includes customer, vendor, partne, Affiliate, or anyone.
+          when you're doing business with any company then you capture those companies' details here, in the accounts entity.
+          So whenever I say entity, entity is nothing but a place where you can store the records or store the data. 
+ Contact:  The contact is an individual. A contact is also your customer but it is a person and a contact can be associated with a maximum of one account which is called its primary contact.
+           So for any company whom you are doing business with you will need a person whom you are going to interact with. So that becomes your primary contact. So you can associate a contact with an account. Contact and account are your customers. 
+         Accounts are organizations and contacts are individuals.
+
+ Lead: Lead is a prospect and it can be your potential customer or your potential sale. So whenever you meet someone they give you a business card or they give you some information about them.
+       So that becomes your lead. So you capture those leads in your Dynamics 365 sales module and it can be a potential customer.
+       It means the person who has never done business before with you and they are meeting it for the
+       first time so can be a potential customer and it can be a potential sale as well. It means the customer is existing but there is a new opportunity and they want to work with you. Right! So
+       that can become your potential sales. So every sales process starts with a lead generation or leads that you interact with them and you start following up with them. So lead is a prospect.
+
+ Opportunity: So opportunity is a potential sale. It means that the lead is almost ready to buy  So when you have the lead ready it means they ask you for more information and it means that they are
+              interested and they are ready to buy. And you can create opportunities manually also. So you don't have to follow the lead-to-opportunity process but you can also create an opportunity
+              directly in the system. And it is attached to an account or contact because you should know whom you are going to sell. There you identified the customer needs, what are the pain points they have, what exactly the solution
+              they are looking for, and what solution you have proposed to them. So you capture all those details in opportunity. So opportunity is your potential sale which is the next step of lead.
+
+Quote: So quote is a document for Prospect and Customer with all the details. So when your lead is ready to buy that becomes your opportunity and when your prospect is interested in your product and services they ask you for a quote.
+       So quote includes a product they want to purchase, the quantity that they are looking at, the price that you are offering to them, payment terms that you have defined, and other important details that you capture in quote.
+       So once you have the quote in place, you can send it to the customer and then basically they can take the decision. How do they go about it?
+         So quote is a document for Prospect and customers with all the details that are offered to them.
+
+Orders: orders are a confirmation from customers that they are purchasing your product or services. So it can be created from the quote. It means you don't have to manually
+       enter it again if the quote is available, all you can do is, create the order from the quote and all the information that is there in the quote will get transferred to the order. It can also be created manually.
+       So you don't have to follow the entire process. In case the customer is interested and they are giving you the order, you can directly create an order in Dynamics 365 for sales.
+       The next is an invoice. So it is a document that you use to bill your customer for using your product and services.
+
+ Invoice: So it is a document that you use to bill your customer for using your product and services. So it is sent to the customer once you have fulfilled the order. So once you get the order you fulfill the requirements, you fulfill what you have promised them, it means
+          you deliver your services or you deliver that if you are doing training that you deliver the training. Once it is finished, you send them an invoice. Sending an invoice ensures that the customer is going to
+          pay you for the services that they use. It can also be created manually. It means you don't have to follow the entire process of lead, opportunity, quote, order, and invoice. You can directly create an invoice. In case if you have a repeated customer and they're using your services regularly.
+          So you can create the invoice manually and bill any customer. 
+
+ Competitors: So it's a place where you capture all your competitor's details. So when you are bidding for any project, if some other company is also bidding for the same project then you should know that OK what they're good at, what they are about and what are their strengths, what are
+              their weaknesses, what is the product offering they have and what quality they have. Right! So all those kinds of information you can capture in competitors and you can attach it with your sales process.
+              So you will know that I'm competing with this competitor which has these qualities, these are weaknesses.So you can keep track of them and then you can win because once you know what their weaknesses
+              are or what their qualities are, you can make changes to your offering accordingly and give it to the customers to win the lead. So understanding competitors is very very important in the business.
+
+
+    Sales literature: It's a centralized repository for sales documents and this can include the brochures, the brochures that you have, and the product guide. So if you have multiple products then what the specifications of the products
+                      and what guides are available, so, that you can give them to the customer and they can see their complete specification. You can also capture your competitor's information. You can also have pricing and discounts details in the sales repository and other sales documents.
+                      So sales literature is a centralized repository of sales documents.
+
+
+ Product catalogs: So product catalog is a collection of products and their pricing information. When you have any product or services you can create that under product. You can define the unit,it means that for a particular product
+                 how do you sell it, how do you purchase it.
+                 For example, a PC can be sold in numbers and if you are sending your training services then you can charge customers on an hourly basis. So you can define an hour as a unit group. So there you can capture their unit groups.
+                 You can define a price list according to the segmentation of your customers. So you can define multiple price lists for different customers you can also define discount lists. So in case if somebody buys from 0 to 10 it means you will get
+                 a 5 percent discount, if they buy from 11 to 25, then you get 20 percent discount. Right!So those kind of discounts you can define in the discount list.So the entire product-related configuration, pricing, product details, discounts everything is captured and
+                maintained in the product catalog.
+
+ Goals: So goals are used to keep track of the progress on achieving your targets. Whatever revenue that you have planned for the particular quarter or year or half year, you can keep track of those goals here.
+        So you can define your goal details that okay what exactly the goal is. So for example a goal can be that a sales manager needs to meet his hundred thousand U.S. dollar targetin this quarter.
+        So those are going to be fine. You can define the period type, you can define the goal revenue target, and how much you want to achieve. And also the actual goal that you can keep track of.
+        So as soon as the opportunities are closed, you will see that the actual sales are making. 
+        So for example the target is 100000 dollars and your team has closed an opportunity worth $20000. Then you would know that OK this is the plan I have, a hundred thousand dollars and 20000 is already closed.
+        So this is automatically calculated by the application and gives you a real-time picture of how you're performing on your goals.
+
+Goal metrics: What is a goal metric side whether it is count or amount. So for sales, it is going to be an amount.
+             For example, if you want to see how many calls the person has made in a day then that becomes your count. So you can define those metrics to measure goals. And you can also create a rollup field for calculation. So as you have seen in the goals actual revenue is calculated through roll-up fields.
+             So you can define those roll-up fields for calculation of whether it's going to be some of all the opportunities that are with status won or some of all the opportunities which are closed.
+             So those things you can define the roll-up fields.
