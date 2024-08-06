@@ -82,7 +82,107 @@ Orders: orders are a confirmation from customers that they are purchasing your p
         So for example the target is 100000 dollars and your team has closed an opportunity worth $20000. Then you would know that OK this is the plan I have, a hundred thousand dollars and 20000 is already closed.
         So this is automatically calculated by the application and gives you a real-time picture of how you're performing on your goals.
 
-Goal metrics: What is a goal metric side whether it is count or amount. So for sales, it is going to be an amount.
-             For example, if you want to see how many calls the person has made in a day then that becomes your count. So you can define those metrics to measure goals. And you can also create a rollup field for calculation. So as you have seen in the goals actual revenue is calculated through roll-up fields.
-             So you can define those roll-up fields for calculation of whether it's going to be some of all the opportunities that are with status won or some of all the opportunities which are closed.
+Goal metrics: What is a goal metric side whether it is count or amount? So for sales, it is going to be an amount.
+             For example, if you want to see how many calls the person has made in a day then that becomes your count. So you can define those metrics to measure goals. You can also create a rollup field for 
+             calculation. So as you have seen in the goals actual revenue is calculated through roll-up fields.
+             So you can define those roll-up fields for calculation of whether it's going to be some of all the opportunities that are with status won or some of all the opportunities that are closed.
              So those things you can define the roll-up fields.
+
+Dynamics 365 sale process flow 
+
+Start: lead > Opportunity > Sales Quote > Sales Oreder > Sale Invoice
+      Lead Qualification
+     Account <> contact
+
+So the first step in the process is to create a lead. two things lead to your potential sale or a potential customer.
+So first step is to create a lead in Dynamics 365. And then once the lead shows interest in your product or services and asks for more information it means
+they are interested. So when they're interested you qualify that lead and that becomes your opportunity. This process is called lead qualification.
+
+So as soon as you do lead qualification two things happen, whatever information of an individual you have captured in the lead becomes contact, and whatever information you have captured as a company it means the company details that become your account.
+
+So it's an automatic process. You don't have to manually create a contact or account from the lead and if existing accounts or contacts are available for that particular lead then the system is going to pick that automatically. So it is not going to create a duplicate.
+
+So once you have the opportunity it means you have shared the details with the customer. So they ask you for more information, so you add all the products in the opportunity, all the prices, all the things you define the opportunity and create a quotation.
+
+So when you create a quotation you might need to create multiple versions because customers might negotiate with you. So you defined the quote, you created the quote and you sent it to the customer.
+If they ask for some changes you negotiate with them and then you revise the quote, so you can keep a limited number of revisions. And it is not going to delete the previous one, it is going to keep the previous one for history.
+So the sales quote is created.
+
+Once the prospect says yes I'm interested in this product service and I like the quote. So I want to go ahead with this. What do you do, you convert that quotation to an order. It means it's a confirmation from the customer and the order is created.
+
+So what happens in the background the system automatically closes the opportunity as won and it creates order. So once you get the confirmation from the customer and they send you the purchase order that becomes
+your sales order and after you receive the purchase order from them you deliver whatever you have promised. So it can be a training, it can be a product, it can be any service that you have delivered to the customer.
+So once you have delivered what you have promised the customer it's time to send them an invoice. It means the work is finished and you are sending the invoice so that they can make payment.
+
+
+
++==============================================================================================================================================================================================================+
+Marketing :
+           The first terminology you should know is about marketing lists. So, a marketing list allows you to group your accounts, contacts, or leads for marketing.
+           for example, You have two marketing lists. Marketing List One has all the people interested in product A and Marketing List Two has all the people interested in product B.
+           So if you want to communicate with the people who are interested in product A, you will send an email or communication to marketing list 1. So marketing lists allow you to group the contacts, accounts, or leads together to 
+           together to differentiate OK! What they are interested in. You can either choose it from an account, contact, or leads.
+           You cannot choose multiple in the same marketing list. So if you create one marketing list it can be either of the accounts. It means you can add all the accounts, you can be the contacts.
+           It means you can enter only contacts there and it can be lead where you can enter only leads or select only that marketing list.
+
+There are two types of marketing lists: One is dynamic and one is static. So in static, we enter all the members manually in the list, 
+                                        in dynamic where you define a criteria that whenever somebody meets that criteria or parameters, it automatically gets added to your list.
+
+Campaigns in Dynamics 365
+Campaigns in Dynamics 365 allow you to plan and execute your marketing projects effectively. When you have a new initiative, such as an advertisement, roadshow, or event, it can be managed as a campaign within the Dynamics 365 Marketing module.
+Key Features of Campaign Management:
+Defining Campaign Details:
+You start by defining what the campaign is about.
+Specify the type of campaign (e.g., advertisement, roadshow, event).
+Set key details such as start date and end date.
+Selecting a Marketing List:
+Choose the marketing list(s) you want to target with this campaign.
+A marketing list contains contacts or leads.
+You can include multiple marketing lists in a single campaign to broaden your reach.
+Executing Marketing Activities:
+Create and run various marketing activities to execute the campaign.
+These activities are designed to engage with the selected contacts or leads.
+Measuring Campaign Performance:
+After the campaign is executed, assess its performance.
+Analyze how many leads were generated as a result of the campaign.
+
+
+Marketing Process in Dynamics 365
+
+The marketing process in Dynamics 365 begins with careful planning and progresses through execution and lead generation, ultimately feeding into the sales process. Here's how it works:
+
+1. Campaign Planning:
+
+Objective: The first step is to plan what you want to market. This could be a product, a new launch, or a special offer.
+Campaign Creation: You need to create a campaign in Dynamics 365 that aligns with your marketing objectives.
+2. Attaching Marketing Lists:
+
+Target Audience: Once your campaign is set up, the next step is to attach marketing lists.
+Multiple Lists: These lists consist of people who are interested in the types of promotions you’re running. You can attach multiple marketing lists to a single campaign to reach a broader audience.
+3. Defining Marketing Activities:
+
+Activity Planning: After attaching the marketing lists, you need to define the marketing activities for your campaign.
+Examples of Activities: These could include sending promotional emails, reminder emails, making phone calls, or sending discount codes. Each activity should be clearly outlined in this step.
+4. Budget Allocation:
+
+Budget Planning: Define the budget for each marketing activity as well as for the overall campaign.
+Tracking Costs: As you execute the campaign, Dynamics 365 will track the actual costs against your budget, allowing you to monitor how much of your budget has been consumed.
+5. Executing the Campaign:
+
+Step-by-Step Execution: Start executing the defined marketing activities according to the schedule and priorities you’ve set.
+Activity Example: If a campaign activity involves making phone calls, the system will create tasks for each customer on the list and assign them to the relevant team members.
+6. Campaign Responses and Lead Generation:
+
+Handling Responses: As customers respond to your calls, emails, or other follow-ups, these responses are tracked as campaign responses.
+Converting Responses: Campaign responses can be converted into leads, which then move into the sales process.
+7. Transition to Sales Process:
+
+Sales Process: Once leads are generated from your campaign, they are matured through the sales process. This involves creating opportunities, generating quotations, and eventually creating invoices.
+End-to-End Integration: The marketing process seamlessly transitions into the sales process, ensuring continuity and efficiency in managing customer interactions and business transactions.
+
++==============================================================================================================================================================================================================+
+Customer services
+gfbfgb
+
++==============================================================================================================================================================================================================+
+
