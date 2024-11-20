@@ -10,3 +10,11 @@ class base  or function base compnenet
 class base is old version used but latest version used function base 
 react function is like normal javascript function that is return jsx code
 *component composition is one component inside another component
+
+
+my food project
+Food booking
+Number of components
+Header component => logo component, menu component
+body component => Search component Layout container component, restaurant card component
+Footer component => Search menu  Component,@copy right component ,address component
